@@ -1,6 +1,9 @@
 /*
  * Globals
  */
+* {
+  font-family: "Rubik", sans-serif;
+}
 
 html {
   scroll-behavior: smooth;
@@ -97,7 +100,7 @@ body {
     top: 56px; /* Height of navbar */
     bottom: 0;
     left: 100%;
-    width: 55%;
+    width: 40%;
     padding-top: 1rem;
     padding-right: 1rem;
     padding-left: 1rem;
@@ -160,4 +163,13 @@ body {
   line-height: 1.5;
   display: inline-block;
   vertical-align: middle;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: #dbdbdb;
 }
